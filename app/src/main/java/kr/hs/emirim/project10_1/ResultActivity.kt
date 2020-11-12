@@ -33,8 +33,6 @@ class ResultActivity : AppCompatActivity() {
         for (i in voteResult!!.indices){
             text[i].setText(imageName!!.get(i))
             rbarArr[i].rating = voteResult[i].toFloat()
-
-            
         }
 
         btnReturn.setOnClickListener {

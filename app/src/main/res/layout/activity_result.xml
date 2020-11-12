@@ -145,7 +145,4 @@
             android:text="결과"
             android:layout_gravity="center_vertical"/>
     </TableRow>
-
-
-
 </TableLayout>
